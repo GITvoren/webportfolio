@@ -87,6 +87,18 @@ font-size: 17px;
 #form1 {
 	background-color: white;
 	border-radius: 5%
+
+}
+
+#msgr {
+	color: steelblue;
+	font-weight: bolder;
+}
+
+#msgr:hover {
+	color: yellow;
+	text-decoration: none;
+	font-size: 20px;
 }
 /*Navigation Bar End*/
 
