@@ -55,12 +55,17 @@ body{
 	font-family: 'Roboto Mono', monospace;
 }
 
+
 #ab2 {
 
 text-decoration: ;
 color: black;
 text-transform: uppercase;
 font-weight: bolder;
+}
+#ab2:hover{
+	color: yellow;
+	text-decoration: 0;
 }
 /*Landing Page End*/
 
@@ -93,6 +98,7 @@ footer {
 	padding: 0.7rem;
 	text-align: center;
 	background: #044c5c;
+	min-height: 31vh;
 }
 
 footer span {
