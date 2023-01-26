@@ -16,12 +16,21 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
 	</head>
 	<body>
 		<header>
 			<!-- Header Background Image Start -->
 			<div class="text-center  d-none d-md-block d-xl-block pt-3">
-				<img src="./images/header.png">
+				<h1 id="headername">vorentejuco</h1>
 			</div>
 			<div id="slanted-bg"></div>
 			<!-- Header Background Image End -->
@@ -53,19 +62,18 @@
 
 		<main class="mt-5">
 			<!-- Landing Page Start -->
-			<div class="container-fluid bg-gradient text-center col-xl-12 pb-5 mb-5" id="landing1">
+			<div class="container-fluid bg-gradient text-center col-xl-12 pb-5  mb-5" id="landing1">
 				<img src="./images/sheesh3.png" class="img-fluid col-xl-2 offset-xl-5 mt-xl-5 pt-xl-5 w-50 rounded-circle col-md-4 mt-md-5 offset-md-7">
 				<div class="col-xl-6 offset-xl-2">
-					<h1 class="font-weight-bold text">Welcome!</h1>
-					<h5 class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco.</h5>
+					<h1 class="font-weight-bold pt-3" id="welcome">GREETINGS!</h1>
+					<h5 class="text-justify pb-sm-5 pb-xl-0"; id="welcome3">Hello there! My name is Voren and I do Frontend Development and Responsive Design. Everyday, I strive to become better in coding.</h5>
+					<h5 class="text-justify float-xl-right pt-5" id="welcome2"> Know more <a href="#aboutme" id="ab2">About Me</a>!</h5>
 				</div>
 			</div>
 			<!-- Landing Page End -->
 
 			<!-- About Me Start -->
-			<div class="bg-secondary text-light mb-5 pb-5">
+			<div class="bg-dark text-light pb-5 min-vh-100">
 				<div class="text-center col-xl-6 bg-gradient container-fluid pb-5">
 					<h2 class="font-weight-bold text-center pt-5" id="aboutme">About Me</h2>
 					<h5 class="text-justify">
@@ -104,8 +112,8 @@
 			<!-- About Me End -->
 
 			<!-- Gallery Start -->
-			<div id="gallery1" class="text-justify container-fluid pb-5">
-			<h2 class="font-weight-bold mt-5 mb-5 text-center">Gallery</h2>
+			<div id="gallery1" class="text-justify container-fluid pb-5 bg-secondary pt-5 text-light">
+			<h2 class="font-weight-bold mb-5 text-center">Gallery</h2>
 				<div class="col-xl-12 img-fluid">
 					<img src="./images/sample1.jpg" class="col-xl-2 pt-5">
 					<img src="./images/sample2.jpg" class="col-xl-2 pt-5">
@@ -114,15 +122,14 @@
 					<img src="./images/sample5.jpg" class="col-xl-2 pt-5">
 					<img src="./images/sample6.jpg" class="col-xl-2 pt-5">
 					<img src="./images/sample7.jpg" class="col-xl-2 pt-5 ml-xl-5">
-					
 				</div>
 			</div>
 			<!-- Gallery End -->
 
 			<!-- Contact Me Start -->
-			<div class="bg-secondary pt-5 min-vh-100 pb-5 text-center text-light" id="contactme">
-				<h2 class="pb-3">Contact Me</h2>
-				<form class="col-xl-6 offset-xl-3 pt-3 pb-3" action="#" id="form1">
+			<div class="bg-gradient pt-5 min-vh-100 pb-5 text-center text-dark" id="contactme">
+				<h2 class="pb-3 font-weight-bold">Contact Me</h2>
+				<form class="col-xl-6 offset-xl-3 pt-3 pb-3 text-dark" action="#contactme" id="form1">
              		<div class="form-group">
                         <label for="fullname">Full Name</label>
                         <input type="text" class="form-control" id="fullname" name="fullname" autocomplete="yes" placeholder="Your Name">
@@ -141,7 +148,7 @@
 						
 						</textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary" style="background-color: rgb(52, 58, 64);" data-toggle="modal" data-target="#modal1">Send</button>   		
+                    <button type="submit" class="btn btn-primary bg-success" style="background-color: rgb(52, 58, 64);" data-toggle="modal" data-target="#modal1">&nbsp;&nbsp;&nbsp;&nbsp;Send Message&nbsp;&nbsp;&nbsp;&nbsp;</button>   		
                 </form>
 
             </div>
@@ -158,8 +165,8 @@
 			</div>
 			<span class="pb-5">Online Developer Portfolio</span>
 
-			<h3 class="pt-2 text-light font-weight-bold">voren.me</h3>
-			<span>© 2023 Voren.me</span>
+			<h3 class="pt-2 text-light font-weight-bold">vorentejuco</h3>
+			<span>© 2023 vorentejuco</span>
 
 			
 		</footer>
